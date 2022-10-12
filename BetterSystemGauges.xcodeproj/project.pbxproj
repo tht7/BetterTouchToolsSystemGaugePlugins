@@ -32,6 +32,7 @@
 		B1AC273E28F6EFFA005D7869 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B1AC273D28F6EFFA005D7869 /* .gitignore */; };
 		B1AC274228F6F0D7005D7869 /* CPUGaugePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC273F28F6F0D0005D7869 /* CPUGaugePlugin.swift */; };
 		B1AC274528F6F293005D7869 /* MyCpuUsageMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC274328F6F0FB005D7869 /* MyCpuUsageMonitor.swift */; };
+		B1AC274928F6FEA8005D7869 /* example1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1AC274828F6FEA8005D7869 /* example1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,8 @@
 		B1AC273D28F6EFFA005D7869 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B1AC273F28F6F0D0005D7869 /* CPUGaugePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPUGaugePlugin.swift; sourceTree = "<group>"; };
 		B1AC274328F6F0FB005D7869 /* MyCpuUsageMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCpuUsageMonitor.swift; sourceTree = "<group>"; };
+		B1AC274728F6FBFD005D7869 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1AC274828F6FEA8005D7869 /* example1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = example1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 		B160EAF028F6C4DE00F26AA4 = {
 			isa = PBXGroup;
 			children = (
+				B1AC274728F6FBFD005D7869 /* README.md */,
+				B1AC274628F6FB39005D7869 /* README-IMAGES */,
 				B1AC273D28F6EFFA005D7869 /* .gitignore */,
 				B1AC270028F6CB90005D7869 /* Cartfile */,
 				B160EB0028F6C51500F26AA4 /* BasePlugin */,
@@ -237,6 +242,14 @@
 				B1AC273C28F6EF34005D7869 /* BetterSystemGaugesCpu-Info.plist */,
 			);
 			path = Cpu;
+			sourceTree = "<group>";
+		};
+		B1AC274628F6FB39005D7869 /* README-IMAGES */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC274828F6FEA8005D7869 /* example1.jpg */,
+			);
+			path = "README-IMAGES";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AC274928F6FEA8005D7869 /* example1.jpg in Resources */,
 				B1AC273E28F6EFFA005D7869 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
