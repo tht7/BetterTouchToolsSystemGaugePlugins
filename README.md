@@ -65,6 +65,6 @@ However beltex version of SystemKit is super outdated, so I used the more update
 
 # Licence and Kofi
 This is an as-is project! I would love to help anyone in need, and everything here is as free as I can make it! 
-If this helped you in any way and you wanna throw some love maybe we can grab a [Kofi](Ko-fi.com/tht77) together?
+If this helped you in any way and you wanna throw some love maybe we can grab a [Kofi](https://Ko-fi.com/tht77) together?
 
 XMR: 43sginAtKFh7Ln89t1MLFAEtp2dk2XckbdYbfkgW96a5MgLvFAgmRFbJhU57p96hgu1wYtFtcv3W9XfGsATtGnVHLnc83zx
