@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B160EB1B28F6C5A000F26AA4 /* BTTFormConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B160EB1328F6C59800F26AA4 /* BTTFormConstants.m */; };
+		B160EB1C28F6C5A000F26AA4 /* BTTFormConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B160EB1428F6C59800F26AA4 /* BTTFormConstants.h */; };
+		B160EB1E28F6C5A000F26AA4 /* BTTPluginSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B160EB0F28F6C59800F26AA4 /* BTTPluginSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B160EB1F28F6C5A000F26AA4 /* BTTPluginFormItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B160EB1228F6C59800F26AA4 /* BTTPluginFormItem.h */; };
+		B160EB2028F6C5A000F26AA4 /* BTTPluginFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B160EB1128F6C59800F26AA4 /* BTTPluginFormItem.m */; };
+		B160EB2228F6C7AA00F26AA4 /* BTTPluginSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B160EB0828F6C58400F26AA4 /* BTTPluginSupport.framework */; };
+		B160EB2A28F6C81D00F26AA4 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160EB2928F6C81D00F26AA4 /* BaseClass.swift */; };
+		B1AC270228F6CF79005D7869 /* SystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AC270128F6CF79005D7869 /* SystemKit.framework */; };
+		B1AC270328F6CF79005D7869 /* SystemKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1AC270128F6CF79005D7869 /* SystemKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1AC270C28F6D221005D7869 /* BTTPluginSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B160EB0828F6C58400F26AA4 /* BTTPluginSupport.framework */; };
+		B1AC271728F6D40B005D7869 /* RAMGaugePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC271628F6D40B005D7869 /* RAMGaugePlugin.swift */; };
+		B1AC271C28F6EA20005D7869 /* MyRamUsageMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC271B28F6EA20005D7869 /* MyRamUsageMonitor.swift */; };
+		B1AC271E28F6EB20005D7869 /* View+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC271D28F6EB20005D7869 /* View+Image.swift */; };
+		B1AC271F28F6EB20005D7869 /* View+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC271D28F6EB20005D7869 /* View+Image.swift */; };
+		B1AC272128F6EB3C005D7869 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC272028F6EB3C005D7869 /* SwiftUIView.swift */; };
+		B1AC272628F6EE9B005D7869 /* SystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AC270128F6CF79005D7869 /* SystemKit.framework */; };
+		B1AC272728F6EE9B005D7869 /* SystemKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1AC270128F6CF79005D7869 /* SystemKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1AC272F28F6EF33005D7869 /* View+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC271D28F6EB20005D7869 /* View+Image.swift */; };
+		B1AC273028F6EF33005D7869 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC272028F6EB3C005D7869 /* SwiftUIView.swift */; };
+		B1AC273328F6EF33005D7869 /* SystemKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AC270128F6CF79005D7869 /* SystemKit.framework */; };
+		B1AC273428F6EF33005D7869 /* BTTPluginSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B160EB0828F6C58400F26AA4 /* BTTPluginSupport.framework */; };
+		B1AC273728F6EF33005D7869 /* SystemKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1AC270128F6CF79005D7869 /* SystemKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B1AC273E28F6EFFA005D7869 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B1AC273D28F6EFFA005D7869 /* .gitignore */; };
+		B1AC274228F6F0D7005D7869 /* CPUGaugePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC273F28F6F0D0005D7869 /* CPUGaugePlugin.swift */; };
+		B1AC274528F6F293005D7869 /* MyCpuUsageMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC274328F6F0FB005D7869 /* MyCpuUsageMonitor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B160EB2428F6C7AA00F26AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B160EAF128F6C4DE00F26AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B160EB0728F6C58400F26AA4;
+			remoteInfo = BTTPluginSupport;
+		};
+		B1AC270728F6D221005D7869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B160EAF128F6C4DE00F26AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B160EB0728F6C58400F26AA4;
+			remoteInfo = BTTPluginSupport;
+		};
+		B1AC272C28F6EF33005D7869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B160EAF128F6C4DE00F26AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B160EB0728F6C58400F26AA4;
+			remoteInfo = BTTPluginSupport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1AC270428F6CF79005D7869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1AC270328F6CF79005D7869 /* SystemKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC272828F6EE9B005D7869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1AC272728F6EE9B005D7869 /* SystemKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC273628F6EF33005D7869 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1AC273728F6EF33005D7869 /* SystemKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B160EAF928F6C4DE00F26AA4 /* BetterSystemGauges.bttstreamdeckplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSystemGauges.bttstreamdeckplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B160EB0828F6C58400F26AA4 /* BTTPluginSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTTPluginSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B160EB0F28F6C59800F26AA4 /* BTTPluginSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTPluginSupport.h; sourceTree = "<group>"; };
+		B160EB1028F6C59800F26AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B160EB1128F6C59800F26AA4 /* BTTPluginFormItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTPluginFormItem.m; sourceTree = "<group>"; };
+		B160EB1228F6C59800F26AA4 /* BTTPluginFormItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTPluginFormItem.h; sourceTree = "<group>"; };
+		B160EB1328F6C59800F26AA4 /* BTTFormConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTTFormConstants.m; sourceTree = "<group>"; };
+		B160EB1428F6C59800F26AA4 /* BTTFormConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTFormConstants.h; sourceTree = "<group>"; };
+		B160EB2728F6C7CD00F26AA4 /* BetterSystemGauges-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterSystemGauges-Info.plist"; sourceTree = "<group>"; };
+		B160EB2828F6C81D00F26AA4 /* BTT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTT-Bridging-Header.h"; sourceTree = "<group>"; };
+		B160EB2928F6C81D00F26AA4 /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		B160EB2B28F6C86800F26AA4 /* BTTPluginInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTTPluginInterface.h; sourceTree = "<group>"; };
+		B1AC270028F6CB90005D7869 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		B1AC270128F6CF79005D7869 /* SystemKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemKit.framework; path = Carthage/Build/Mac/SystemKit.framework; sourceTree = "<group>"; };
+		B1AC271328F6D221005D7869 /* BetterSystemGaugesRam.bttstreamdeckplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSystemGaugesRam.bttstreamdeckplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AC271428F6D221005D7869 /* BetterSystemGaugesRam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterSystemGaugesRam-Info.plist"; sourceTree = "<group>"; };
+		B1AC271628F6D40B005D7869 /* RAMGaugePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMGaugePlugin.swift; sourceTree = "<group>"; };
+		B1AC271B28F6EA20005D7869 /* MyRamUsageMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRamUsageMonitor.swift; sourceTree = "<group>"; };
+		B1AC271D28F6EB20005D7869 /* View+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Image.swift"; sourceTree = "<group>"; };
+		B1AC272028F6EB3C005D7869 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B1AC273B28F6EF33005D7869 /* BetterSystemGaugesCpu.bttstreamdeckplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterSystemGaugesCpu.bttstreamdeckplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AC273C28F6EF34005D7869 /* BetterSystemGaugesCpu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BetterSystemGaugesCpu-Info.plist"; sourceTree = "<group>"; };
+		B1AC273D28F6EFFA005D7869 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B1AC273F28F6F0D0005D7869 /* CPUGaugePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPUGaugePlugin.swift; sourceTree = "<group>"; };
+		B1AC274328F6F0FB005D7869 /* MyCpuUsageMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCpuUsageMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B160EAF628F6C4DE00F26AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC270228F6CF79005D7869 /* SystemKit.framework in Frameworks */,
+				B160EB2228F6C7AA00F26AA4 /* BTTPluginSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B160EB0528F6C58400F26AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC270A28F6D221005D7869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC272628F6EE9B005D7869 /* SystemKit.framework in Frameworks */,
+				B1AC270C28F6D221005D7869 /* BTTPluginSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC273228F6EF33005D7869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC273328F6EF33005D7869 /* SystemKit.framework in Frameworks */,
+				B1AC273428F6EF33005D7869 /* BTTPluginSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B160EAF028F6C4DE00F26AA4 = {
+			isa = PBXGroup;
+			children = (
+				B1AC273D28F6EFFA005D7869 /* .gitignore */,
+				B1AC270028F6CB90005D7869 /* Cartfile */,
+				B160EB0028F6C51500F26AA4 /* BasePlugin */,
+				B1AC271528F6D24D005D7869 /* Ram */,
+				B1AC272928F6EEB6005D7869 /* Cpu */,
+				B160EB0928F6C58400F26AA4 /* BTTPluginSupport */,
+				B160EAFA28F6C4DE00F26AA4 /* Products */,
+				B160EB2128F6C7AA00F26AA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B160EAFA28F6C4DE00F26AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B160EAF928F6C4DE00F26AA4 /* BetterSystemGauges.bttstreamdeckplugin */,
+				B160EB0828F6C58400F26AA4 /* BTTPluginSupport.framework */,
+				B1AC271328F6D221005D7869 /* BetterSystemGaugesRam.bttstreamdeckplugin */,
+				B1AC273B28F6EF33005D7869 /* BetterSystemGaugesCpu.bttstreamdeckplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B160EB0028F6C51500F26AA4 /* BasePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC271D28F6EB20005D7869 /* View+Image.swift */,
+				B160EB2728F6C7CD00F26AA4 /* BetterSystemGauges-Info.plist */,
+				B160EB2B28F6C86800F26AA4 /* BTTPluginInterface.h */,
+				B160EB2928F6C81D00F26AA4 /* BaseClass.swift */,
+				B160EB2828F6C81D00F26AA4 /* BTT-Bridging-Header.h */,
+				B1AC272028F6EB3C005D7869 /* SwiftUIView.swift */,
+			);
+			path = BasePlugin;
+			sourceTree = "<group>";
+		};
+		B160EB0928F6C58400F26AA4 /* BTTPluginSupport */ = {
+			isa = PBXGroup;
+			children = (
+				B160EB1428F6C59800F26AA4 /* BTTFormConstants.h */,
+				B160EB1328F6C59800F26AA4 /* BTTFormConstants.m */,
+				B160EB1228F6C59800F26AA4 /* BTTPluginFormItem.h */,
+				B160EB1128F6C59800F26AA4 /* BTTPluginFormItem.m */,
+				B160EB0F28F6C59800F26AA4 /* BTTPluginSupport.h */,
+				B160EB1028F6C59800F26AA4 /* Info.plist */,
+			);
+			path = BTTPluginSupport;
+			sourceTree = "<group>";
+		};
+		B160EB2128F6C7AA00F26AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC270128F6CF79005D7869 /* SystemKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1AC271528F6D24D005D7869 /* Ram */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC271428F6D221005D7869 /* BetterSystemGaugesRam-Info.plist */,
+				B1AC271B28F6EA20005D7869 /* MyRamUsageMonitor.swift */,
+				B1AC271628F6D40B005D7869 /* RAMGaugePlugin.swift */,
+			);
+			path = Ram;
+			sourceTree = "<group>";
+		};
+		B1AC272928F6EEB6005D7869 /* Cpu */ = {
+			isa = PBXGroup;
+			children = (
+				B1AC274328F6F0FB005D7869 /* MyCpuUsageMonitor.swift */,
+				B1AC273F28F6F0D0005D7869 /* CPUGaugePlugin.swift */,
+				B1AC273C28F6EF34005D7869 /* BetterSystemGaugesCpu-Info.plist */,
+			);
+			path = Cpu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B160EB0328F6C58400F26AA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B160EB1E28F6C5A000F26AA4 /* BTTPluginSupport.h in Headers */,
+				B160EB1F28F6C5A000F26AA4 /* BTTPluginFormItem.h in Headers */,
+				B160EB1C28F6C5A000F26AA4 /* BTTFormConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B160EAF828F6C4DE00F26AA4 /* BetterSystemGauges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B160EAFD28F6C4DE00F26AA4 /* Build configuration list for PBXNativeTarget "BetterSystemGauges" */;
+			buildPhases = (
+				B160EAF528F6C4DE00F26AA4 /* Sources */,
+				B160EAF628F6C4DE00F26AA4 /* Frameworks */,
+				B160EAF728F6C4DE00F26AA4 /* Resources */,
+				B1AC270428F6CF79005D7869 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B160EB2528F6C7AA00F26AA4 /* PBXTargetDependency */,
+			);
+			name = BetterSystemGauges;
+			productName = BTT;
+			productReference = B160EAF928F6C4DE00F26AA4 /* BetterSystemGauges.bttstreamdeckplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B160EB0728F6C58400F26AA4 /* BTTPluginSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B160EB0C28F6C58400F26AA4 /* Build configuration list for PBXNativeTarget "BTTPluginSupport" */;
+			buildPhases = (
+				B160EB0328F6C58400F26AA4 /* Headers */,
+				B160EB0428F6C58400F26AA4 /* Sources */,
+				B160EB0528F6C58400F26AA4 /* Frameworks */,
+				B160EB0628F6C58400F26AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTTPluginSupport;
+			productName = BTTPluginSupport;
+			productReference = B160EB0828F6C58400F26AA4 /* BTTPluginSupport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1AC270528F6D221005D7869 /* BetterSystemGaugesRam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AC271028F6D221005D7869 /* Build configuration list for PBXNativeTarget "BetterSystemGaugesRam" */;
+			buildPhases = (
+				B1AC270828F6D221005D7869 /* Sources */,
+				B1AC270A28F6D221005D7869 /* Frameworks */,
+				B1AC270D28F6D221005D7869 /* Resources */,
+				B1AC272828F6EE9B005D7869 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1AC270628F6D221005D7869 /* PBXTargetDependency */,
+			);
+			name = BetterSystemGaugesRam;
+			productName = BTT;
+			productReference = B1AC271328F6D221005D7869 /* BetterSystemGaugesRam.bttstreamdeckplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B1AC272A28F6EF33005D7869 /* BetterSystemGaugesCpu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AC273828F6EF33005D7869 /* Build configuration list for PBXNativeTarget "BetterSystemGaugesCpu" */;
+			buildPhases = (
+				B1AC272D28F6EF33005D7869 /* Sources */,
+				B1AC273228F6EF33005D7869 /* Frameworks */,
+				B1AC273528F6EF33005D7869 /* Resources */,
+				B1AC273628F6EF33005D7869 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1AC272B28F6EF33005D7869 /* PBXTargetDependency */,
+			);
+			name = BetterSystemGaugesCpu;
+			productName = BTT;
+			productReference = B1AC273B28F6EF33005D7869 /* BetterSystemGaugesCpu.bttstreamdeckplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B160EAF128F6C4DE00F26AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B160EAF828F6C4DE00F26AA4 = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+					B160EB0728F6C58400F26AA4 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = B160EAF428F6C4DE00F26AA4 /* Build configuration list for PBXProject "BetterSystemGauges" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B160EAF028F6C4DE00F26AA4;
+			productRefGroup = B160EAFA28F6C4DE00F26AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B160EAF828F6C4DE00F26AA4 /* BetterSystemGauges */,
+				B1AC270528F6D221005D7869 /* BetterSystemGaugesRam */,
+				B1AC272A28F6EF33005D7869 /* BetterSystemGaugesCpu */,
+				B160EB0728F6C58400F26AA4 /* BTTPluginSupport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B160EAF728F6C4DE00F26AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B160EB0628F6C58400F26AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC270D28F6D221005D7869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC273E28F6EFFA005D7869 /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC273528F6EF33005D7869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B160EAF528F6C4DE00F26AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC271E28F6EB20005D7869 /* View+Image.swift in Sources */,
+				B160EB2A28F6C81D00F26AA4 /* BaseClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B160EB0428F6C58400F26AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B160EB2028F6C5A000F26AA4 /* BTTPluginFormItem.m in Sources */,
+				B160EB1B28F6C5A000F26AA4 /* BTTFormConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC270828F6D221005D7869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC271C28F6EA20005D7869 /* MyRamUsageMonitor.swift in Sources */,
+				B1AC271F28F6EB20005D7869 /* View+Image.swift in Sources */,
+				B1AC272128F6EB3C005D7869 /* SwiftUIView.swift in Sources */,
+				B1AC271728F6D40B005D7869 /* RAMGaugePlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AC272D28F6EF33005D7869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AC272F28F6EF33005D7869 /* View+Image.swift in Sources */,
+				B1AC274528F6F293005D7869 /* MyCpuUsageMonitor.swift in Sources */,
+				B1AC274228F6F0D7005D7869 /* CPUGaugePlugin.swift in Sources */,
+				B1AC273028F6EF33005D7869 /* SwiftUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B160EB2528F6C7AA00F26AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B160EB0728F6C58400F26AA4 /* BTTPluginSupport */;
+			targetProxy = B160EB2428F6C7AA00F26AA4 /* PBXContainerItemProxy */;
+		};
+		B1AC270628F6D221005D7869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B160EB0728F6C58400F26AA4 /* BTTPluginSupport */;
+			targetProxy = B1AC270728F6D221005D7869 /* PBXContainerItemProxy */;
+		};
+		B1AC272B28F6EF33005D7869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B160EB0728F6C58400F26AA4 /* BTTPluginSupport */;
+			targetProxy = B1AC272C28F6EF33005D7869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B160EAFB28F6C4DE00F26AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B160EAFC28F6C4DE00F26AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B160EAFE28F6C4DE00F26AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BasePlugin/BetterSystemGauges-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = BaseClass.BasePlugin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BetterSystemGaugesBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasePlugin/BTT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bttstreamdeckplugin;
+			};
+			name = Debug;
+		};
+		B160EAFF28F6C4DE00F26AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BasePlugin/BetterSystemGauges-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = BaseClass.BasePlugin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BetterSystemGaugesBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasePlugin/BTT-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bttstreamdeckplugin;
+			};
+			name = Release;
+		};
+		B160EB0D28F6C58400F26AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BTTPluginSupport/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BTTPluginSupport;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B160EB0E28F6C58400F26AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BTTPluginSupport/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BTTPluginSupport;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1AC271128F6D221005D7869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ram/BetterSystemGaugesRam-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = BetterSystemGaugesRam.RamGaugePlugin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BetterSystemGaugesRam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasePlugin/BTT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bttstreamdeckplugin;
+			};
+			name = Debug;
+		};
+		B1AC271228F6D221005D7869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ram/BetterSystemGaugesRam-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = BetterSystemGaugesRam.RamGaugePlugin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BetterSystemGaugesRam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasePlugin/BTT-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bttstreamdeckplugin;
+			};
+			name = Release;
+		};
+		B1AC273928F6EF33005D7869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cpu/BetterSystemGaugesCpu-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = BetterSystemGaugesCpu.CpuGaugePlugin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BetterSystemGaugesCpu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasePlugin/BTT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bttstreamdeckplugin;
+			};
+			name = Debug;
+		};
+		B1AC273A28F6EF33005D7869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBRBUWSJR6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cpu/BetterSystemGaugesCpu-Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = BetterSystemGaugesCpu.CpuGaugePlugin;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tht7.BetterSystemGaugesCpu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "BasePlugin/BTT-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = bttstreamdeckplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B160EAF428F6C4DE00F26AA4 /* Build configuration list for PBXProject "BetterSystemGauges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B160EAFB28F6C4DE00F26AA4 /* Debug */,
+				B160EAFC28F6C4DE00F26AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B160EAFD28F6C4DE00F26AA4 /* Build configuration list for PBXNativeTarget "BetterSystemGauges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B160EAFE28F6C4DE00F26AA4 /* Debug */,
+				B160EAFF28F6C4DE00F26AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B160EB0C28F6C58400F26AA4 /* Build configuration list for PBXNativeTarget "BTTPluginSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B160EB0D28F6C58400F26AA4 /* Debug */,
+				B160EB0E28F6C58400F26AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AC271028F6D221005D7869 /* Build configuration list for PBXNativeTarget "BetterSystemGaugesRam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AC271128F6D221005D7869 /* Debug */,
+				B1AC271228F6D221005D7869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AC273828F6EF33005D7869 /* Build configuration list for PBXNativeTarget "BetterSystemGaugesCpu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AC273928F6EF33005D7869 /* Debug */,
+				B1AC273A28F6EF33005D7869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B160EAF128F6C4DE00F26AA4 /* Project object */;
+}
